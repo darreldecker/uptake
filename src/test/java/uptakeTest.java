@@ -32,5 +32,7 @@ public class uptakeTest {
         Assert.assertTrue("Verify the Analysis link displays", platform.lnkAnalysis().isDisplayed());
         Assert.assertTrue("Verify the Tools & Services link displays", platform.lnkToolsAndServices().isDisplayed());
         Assert.assertTrue("Verify the Solutions link displays", platform.lnkSolutions().isEnabled());
+
+        driver.close();
     }
 }
